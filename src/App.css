@@ -1,0 +1,111 @@
+.container{
+    text-align: center;
+    margin: 100px auto 0px auto;
+    max-width: 700px;
+    border: 2px solid rgb(48, 52, 32);
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    background-image: url(../elegant-cloud-background-blue-sky-design_1017-25503.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    /* color: orange; */
+}
+
+.searchbar{
+    /* border: 1px solid black; */
+    display: inline;
+    outline:none;
+    color: pink;
+    font-size: 1em;
+    font-family: sans-serif;
+    padding: 0.5 em;
+}
+
+fieldset {
+    font-size: 1em;
+    padding: 0.5em;
+    border-radius: 1em;
+    font-family: sans-serif;
+}
+
+label, input, button {
+    font-size: inherit;
+    padding: 0.2em;
+    margin: 0.1em 0.2em;
+    /* the following ensures they're all using the same box-model for rendering */
+    -moz-box-sizing: content-box; /* or `border-box` */
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.btn-custom{
+    background-color: grey;
+    border: 2px solid ;
+    color: white;
+}
+
+button:focus{
+    outline: none;
+    color: black;
+    border: 2px solid black;
+    background-color: white;
+}
+
+input:focus{
+    outline: none;
+    border-bottom: 2px solid grey;
+    color: grey;  
+}
+
+input:focus::placeholder{
+    color:grey
+}
+
+input::placeholder{
+    color: white;
+}
+
+
+.input{
+    color: white;
+    text-align: center;
+    max-width: 550px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.content{
+    text-align: center;
+    height: 500px;
+    margin: 100px;
+    background-color: rgba(255, 255, 255, .5);
+    border: 1px solid white;
+    border-radius: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(29, 72, 89);
+}
+
+.float-container {
+    /* border: 3px solid #fff; */
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    /* border: 2px solid red; */
+}  
+
+.cool{
+    color: rgb(93, 182, 211)
+}
+
+.hot{
+    color: rgb(203, 27, 24);
+}
+
+.feels_like{
+    color:rgb(179, 116, 94)
+}
